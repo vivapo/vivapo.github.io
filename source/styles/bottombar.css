@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Squada One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.bottombar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 1rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+    background-color: rgb(15, 15, 15);
+}
+.navbarbottom{
+    display: block;
+    padding: 0;
+    list-style: none;
+}
+.logo{
+    width: 250px;
+    padding-top: 0.5rem;
+}
+.navbarbottom>li>a{
+    font-size: x-large;
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+.navbarbottom>li>a:hover{
+    color: rgb(228, 228, 228);
+}
+
+.telephone{
+    display: flex;
+    justify-content: center;
+}
+.telephone>.number{
+    font-family: Squada One, sans-serif;
+    color: rgb(173, 173, 173);
+    font-size: xx-large;
+    padding: 1rem;
+    display: block;
+}
+.telephone>.number:hover{
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.telephone>.d24{
+    font-family: Squada One, sans-serif;
+    color: rgb(249, 194, 1);
+    font-size: xx-large;
+    padding: 1rem;
+    display: block;
+}
+.email{
+    font-size: 1.3rem;
+    color: rgb(173, 173, 173);
+    padding: 1rem;
+    text-align: center;
+}
+.email:hover{
+    color: rgb(228, 228, 228); 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    cursor: pointer;
+}
+.btbar2>div{
+    font-size: 1.3rem;
+    color: rgb(173, 173, 173);
+    padding: 1rem;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+}
+.cards>div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 70px;
+    padding: 0.5rem;
+}
+.logovktg{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+}
+.tg1{
+    height: 25px;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.vk1{
+    height: 20px;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.calceus{
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+.calceus>div{
+    color: rgb(173, 173, 173);
+    font-size: 1.2rem;
+    padding-top: 7rem;
+    display: inline-block;
+    text-align: center;
+}
+.btsignature{
+    color: rgb(173, 173, 173);
+    background-color: rgb(15, 15, 15);
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+@media (max-width: 1600px){
+    .bottombar{
+        padding: 1rem;
+    }
+}
+@media (max-width: 960px){
+    .btbar3>*{
+        display: none;
+    }
+    .bottombar{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media (max-width: 615px){
+    .btbar1>*{
+        display: none;
+    }
+    .bottombar{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media (max-width: 420px){
+    .telephone>.number, .telephone>.d24{
+        font-size: 25px;
+    }
+    .btbar2>div{
+        padding: 0.5rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .btsignature{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 360px){
+    .telephone>.number, .telephone>.d24{
+        padding: 0.2rem;
+    }
+    .telephone>.number{
+        padding-right: 0.5rem;
+    }
+}
+
+
+
+
+

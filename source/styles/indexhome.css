@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/* ВСЁ ЧТО НИЖЕ ВЕРХНЕЙ ПАНЕЛИ */
+
+
+.bgvideo{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bgvideo video{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.video-text{
+    display: block;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    margin-left: 10rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.information{
+    font-size: 20px;
+    color: rgb(215, 215, 215);
+    line-height: 30px;
+}
+
+  /* КОНТЕЙНЕР */
+ 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    margin: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.cont1, .cont2, .cont3, .cont4, .cont5{
+    display: block;
+    margin-top: 2rem;
+    margin: 1rem;
+}
+img{
+    max-width: 100%;
+}
+.f1{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.f2{
+    display: block;
+    margin-top: 0.5rem;
+}
+@media (max-width: 1200px){
+    .container{
+        margin: 0.1rem;
+    }
+    .cont1, .cont2, .cont3, .cont4, .cont5{
+        display: block;
+        margin: 0.1rem;
+        margin-top: 1rem;
+        
+    }
+    .f1{
+        display: block;
+        margin-bottom: 0.05rem;
+    }
+    .f2{
+        display: block;
+        margin-top: 0.05rem;
+    } 
+} 
+
+@media (max-width: 1110px){
+    .video-text{
+        margin: auto;
+    }
+} 
+@media (max-width: 700px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5;
+        padding: 0.1rem;
+        background-color: rgb(224, 219, 211);
+        margin: 0;
+    }
+    .cont1, .cont2, .cont3, .cont4, .cont5{
+        display: block;
+        margin: 0.1rem;
+        margin-top: 0.5rem;
+        
+    }
+    .f1{
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    .f2{
+        display: block;
+        margin-top: 0.5rem;
+    } 
+}
+@media (max-width: 416px) {
+  .video-text{
+    padding: 0.5rem;
+  } 
+}
+
+@media (max-width: 376px) {
+    .title{
+        font-size: 48px;
+    }
+    
+    .information{
+        font-size: 18px;
+    }
+
+}

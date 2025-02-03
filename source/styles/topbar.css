@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: Fira Sans Extra Condensed, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    padding-top: 0.25em;
+    padding-bottom: 0.6em;
+    margin: 0;
+    background-color: rgb(15, 15, 15);
+}
+.signature{
+    display: flex;
+    font-size: small;
+    color: rgb(212, 212, 212);
+    justify-content: center;
+}
+.topbtbar{
+    display: flex;
+    align-items: center;
+}
+.calceus{
+    max-width: 250px;
+    margin-left: 4rem;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    padding-right: 10rem;
+    padding-left: 1rem;
+    margin: 0;
+}
+.navbar1{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar>li>a{
+    padding:1rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    font-size: x-large;
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    display: inline-block;
+}
+.garant{
+    color: rgb(223, 223, 223);
+    background-color: rgb(38, 38, 38);
+}
+.dostavka{
+    color: rgb(223, 223, 223);
+    background-color: rgb(38, 38, 38);
+}
+.katalog{
+    color: rgb(223, 223, 223);
+    background-color: rgb(38, 38, 38);
+}
+.ocompanii{
+    color: rgb(223, 223, 223);
+    background-color: rgb(38, 38, 38);
+}
+.navbar>li>a:hover{
+    color: rgb(223, 223, 223);
+    background-color: rgb(77, 77, 77);
+}
+.modely1>a{
+    padding:1rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    font-size: x-large;
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    display: inline-block;
+}
+.modely1>a:hover{
+    color: rgb(223, 223, 223);
+    background-color: rgb(77, 77, 77);
+}
+.modely:hover .navbar1{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+
+}
+.navbar1>li>a{
+    text-align: center;
+    padding:1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+    display: block;
+    background-color: rgb(15, 15, 15);
+}
+.navbar1>li>a:hover{
+    color: rgb(10, 10, 10);
+    background-color: rgb(212, 212, 212);
+}
+.burger{
+    display: none;
+}
+
+
+
+
+@media (max-width: 1240px) {
+    .navbar{
+        padding: 0;
+    }
+    .modely:hover .navbar1{
+        display: block;
+    }
+}
+@media (max-width: 1040px) {
+    .calceus{
+        margin-left: 1rem;
+    }
+    .topbtbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger{
+        display: block;
+        font-size: 4rem;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .burger>a{
+        color: rgb(223, 223, 223);
+        text-decoration: none;
+        display: block;
+    }
+    .navbar>li>a{
+        font-size: 40px;
+    }
+    .modely1>a{
+        font-size: 40px;
+    }
+    .navbar{
+        display: none;
+    }
+    .drop{
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    .drop:hover .navbar{
+        display: block;
+        position: absolute;
+        margin-top: 5rem;
+        right: 1px;
+        z-index: 4;
+        background-color: rgb(15, 15, 15);
+        color: rgb(223, 223, 223);
+        padding-bottom: 2rem;
+    }
+    .drop:hover .navbar>li>a{
+        display: block;
+    }
+    .drop:hover .navbar>.modely>.modely1>a{
+        display: block;
+    }
+    .modely:hover .navbar1{
+        display: none;
+    }
+}
+@media (max-width: 375px){
+    .calceus{
+        max-width: 200px;
+    }
+}

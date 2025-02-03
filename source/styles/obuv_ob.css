@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: Fira Sans Extra Condensed, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+img{
+    vertical-align:bottom;
+}
+.road{
+    display: flex;
+}
+.road>a{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    padding: 1rem;
+    padding-left: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.road>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.road>div{
+    color: rgb(133, 133, 133);
+    padding: 1rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.road>.slashroad{
+    font-style: italic;
+    font-weight: 450;
+    padding-right: 27px;
+}
+.center{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+}
+.foto{
+    grid-column: 1/8;
+}
+.first_row, .second_row, .third_row{
+    display: flex;
+}
+.first_row>div, .second_row>div, .third_row>div{
+    padding: 3px;
+}
+.info{
+    grid-column: 8/13;
+    grid-row: 1/3;
+    margin-left: 1rem;
+}
+.logobrands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.6rem;
+}
+.logobrands>a{
+    height: 50px;
+}
+.logobrands_logo{
+    width: 50px;
+}
+.love, .love_ch{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-right: 1rem;
+    border-style: none;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+.love_ch{
+    display: none;
+}
+.love:hover .logo_chorn{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 20px;
+    height: 20px;
+}
+.love_ch:hover .logo_svetl{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 20px;
+    height: 20px;
+}
+.name{
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding: 0.5rem;
+    padding-left: 1.6rem;
+    color: rgb(15, 15, 15);
+}
+.price{
+    font-family: Outfit, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 0.5rem;
+    padding-left: 1.6rem;
+    color: rgb(15, 15, 15);
+}
+.color{
+    display: flex;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    padding-left: 1.6rem;
+}
+.color1{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: rgb(15, 15, 15);
+}
+.color2{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: rgb(133, 133, 133);
+}
+.size{
+    display: flex;
+    padding: 0.5rem;
+    padding-left: 1.6rem;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: rgb(15, 15, 15);
+}
+.buttonsize{
+    margin-left: 1.6rem;
+    padding: 1px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(133, 133, 133);
+    max-width: 522.66px;
+}
+button{
+    display: block;
+    border-style: none;
+    padding: 0;
+}
+.button2_1, .button2_2, .button2_3,
+.button2_4, .button2_5, .button2_6,
+.button2_7, .button2_8{
+    display: none;
+}
+.foto_sv{
+    display: none;
+}
+.foto_svch{
+    display: none;
+}
+.button1_1:hover .foto_ob{
+    display: none;
+    cursor: pointer;
+}
+.button1_1:hover .foto_sv{
+    display: block;
+    cursor: pointer;
+}
+.button1_2:hover .foto_ob{
+    display: none;
+    cursor: pointer;
+}
+.button1_2:hover .foto_sv{
+    display: block;
+    cursor: pointer;
+}
+.button1_3:hover .foto_ob{
+    display: none;
+    cursor: pointer;
+}
+.button1_3:hover .foto_sv{
+    display: block;
+    cursor: pointer;
+}
+.button1_4:hover .foto_ob{
+    display: none;
+    cursor: pointer;
+}
+.button1_4:hover .foto_sv{
+    display: block;
+    cursor: pointer;
+}
+.button1_5:hover .foto_ob{
+    display: none;
+    cursor: pointer;
+}
+.button1_5:hover .foto_sv{
+    display: block;
+    cursor: pointer;
+}
+.button1_6:hover .foto_ob{
+    display: none;
+    cursor: pointer;
+}
+.button1_6:hover .foto_sv{
+    display: block;
+    cursor: pointer;
+}
+.button1_7:hover .foto_ob{
+    display: none;
+    cursor: pointer;
+}
+.button1_7:hover .foto_sv{
+    display: block;
+    cursor: pointer;
+}
+.button1_8:hover .foto_ob{
+    display: none;
+    cursor: pointer;
+}
+.button1_8:hover .foto_sv{
+    display: block;
+    cursor: pointer;
+}
+
+.button2_1:hover .foto_ch{
+    display: none;
+    cursor: pointer;
+}
+.button2_1:hover .foto_svch{
+    display: block;
+    cursor: pointer;
+}
+.button2_2:hover .foto_ch{
+    display: none;
+    cursor: pointer;
+}
+.button2_2:hover .foto_svch{
+    display: block;
+    cursor: pointer;
+}
+.button2_3:hover .foto_ch{
+    display: none;
+    cursor: pointer;
+}
+.button2_3:hover .foto_svch{
+    display: block;
+    cursor: pointer;
+}
+.button2_4:hover .foto_ch{
+    display: none;
+    cursor: pointer;
+}
+.button2_4:hover .foto_svch{
+    display: block;
+    cursor: pointer;
+}
+.button2_5:hover .foto_ch{
+    display: none;
+    cursor: pointer;
+}
+.button2_5:hover .foto_svch{
+    display: block;
+    cursor: pointer;
+}
+.button2_6:hover .foto_ch{
+    display: none;
+    cursor: pointer;
+}
+.button2_6:hover .foto_svch{
+    display: block;
+    cursor: pointer;
+}
+.button2_7:hover .foto_ch{
+    display: none;
+    cursor: pointer;
+}
+.button2_7:hover .foto_svch{
+    display: block;
+    cursor: pointer;
+}
+.button2_8:hover .foto_ch{
+    display: none;
+    cursor: pointer;
+}
+.button2_8:hover .foto_svch{
+    display: block;
+    cursor: pointer;
+}
+
+
+.buy{
+    font-size: 25px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    padding: 1rem;
+    padding-left: 2rem;
+    margin-top: 2.5rem;
+    margin-left: 1.6rem;
+    margin-bottom: 1rem;
+    color: rgb(15, 15, 15);
+    background-color: rgb(223, 223, 223);
+    max-width: 475px;
+}
+a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+.buy:hover{
+    background-color: rgb(189, 189, 189);
+    cursor: pointer;
+}
+.infotop{
+    margin-left: 1.6rem;
+    margin-top: 2rem;
+}
+.infotop>div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0rem;
+    margin-top: 1rem;
+    height: 45px;
+}
+.fotoinfo{
+    width: 30px;
+}
+.text{
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.text_ul1{
+    width: 20%;
+    font-size: 18px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.text_ul2{
+    text-decoration: underline;
+    width: 20%;
+    font-size: 18px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.text_ul2:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    /* ВСЁ ЧТО НИЖЕ КАРТИНОК */
+
+
+
+.about_the_product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 4rem;
+}
+.infobottom{
+    grid-column: 1/2;
+    padding-right: 2rem;
+}
+.nameinfo{
+    display: flex;
+    align-items: center;
+}
+.name_in_nameinfo{
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.slash_in_nameinfo{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+    color: #f9d303;
+    margin-left: 1rem;
+}
+.pr1{
+    text-align: justify;
+    font-size: 19px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 28px;
+    color: rgb(15, 15, 15);
+    padding-top: 1rem;
+}
+.pr2{
+    list-style:none;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.pr2>li{
+    padding-bottom: 4px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 28px;
+    color: rgb(15, 15, 15);
+}
+.characteristics{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+}
+.characteristics_name{
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 24px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 28px;
+    color: rgb(15, 15, 15);
+}
+.characteristics_grid{
+    display: block;
+}
+.characteristics_grid_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    list-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid;
+    border-color: rgb(226, 226, 226);
+    border-width: 1px;
+}
+.name_of_characteristics{
+    display: flex;
+    align-items: center;
+    grid-column: 1/2;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    padding-right: 1rem;
+}
+.itself_characteristics{
+    display: flex;
+    align-items: center;
+    grid-column: 2/4;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 28px;
+    color: rgb(15, 15, 15);
+}
+
+
+    /* РЕКОМЕНДАЦИИ */
+
+.recommendations{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.setka_recom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.column1, .column2, .column3{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.column1>a, .column2>a, .column3>a{
+    background-color: rgb(246, 246, 246);;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.productname{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(15, 15, 15);
+    height: 50px;
+    background-color: rgb(246, 246, 246);
+    margin: 0;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.productname:hover{
+    text-decoration: underline;
+}
+.productprice{
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    height: 50px;
+    color: rgb(15, 15, 15);
+}
+
+
+@media(max-width: 1440px){
+    .main{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media(max-width: 1330px){
+    .main{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media(max-width: 1040px){
+    .foto{
+        grid-column: 1/7;
+    }
+    .info{
+        grid-column: 7/13;
+    }
+}
+@media(max-width: 900px){
+    .center{
+        display: block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .infobottom{
+        padding-left: 1rem;
+    }
+    .characteristics{
+        padding-right: 1rem;
+    }
+    .info{
+        margin-left: 0;
+    }
+    .info>div{
+        margin-left:0 ;
+    }
+    .size, .name, .color, .price{
+        padding-left: 0.5rem;
+    }
+}
+@media(max-width: 810px){
+    .about_the_product{
+        display: block;
+    }
+    .infobottom{
+        padding-right: 1rem;
+    }
+    .characteristics{
+        padding-left: 1rem;
+    }
+}
+@media(max-width: 600px){
+    .main{
+        padding: 0.5rem;
+    }
+    .road>a, .road>div{
+        padding: 0.5rem;
+        padding-left: 5px;
+        font-size: 16px;
+    }
+    .road>.slashroad{
+        padding-right: 5px;
+    }
+    .name_in_nameinfo{
+        font-size: 50px;
+    }
+    .slash_in_nameinfo{
+        font-size: 40px;
+    }
+    .center, .characteristics,.infobottom{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .pr1, .pr2>li, .name_of_characteristics,
+    .itself_characteristics{
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+    .text, .text_ul1, .text_ul2{
+        font-size: 18px;
+    }
+    .productprice{
+        font-size: 25px;
+        padding: 0.2rem;
+    }
+    .productname{
+        padding: 0.2rem;
+        font-size: 16px;
+    }
+    .column1, .column2, .column3{
+        margin: 0.1rem;
+    }
+}
+@media(max-width: 450px){
+    .road>a, .road>div{
+        padding: 0.3rem;
+        font-size: 15px;
+    }
+    .road>.slashroad{
+        padding-right: 3px;
+    }
+    .color{
+        padding-top: 0.5rem;
+    }
+    .setka_recom{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .name_in_nameinfo{
+        font-size: 43px;
+        letter-spacing: 2px;
+    }
+    .slash_in_nameinfo{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Squada One&display=swap');
+
+body{
+    font-family: Fira Sans Extra Condensed, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.leftbar{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    padding-top: 2rem;
+}
+
+      /* ЗАГАЛОВОК */
+
+.zagalovok{
+    display: flex;
+}
+.zagalovbrand{
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+}
+.slashtop{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #f9d303;
+}
+.numbertop{
+    font-family: Squada One;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: rgb(133, 133, 133);
+}
+
+       /* ФИЛЬТР */
+
+.hiden2{
+    display: block;
+    padding-top: 4.2rem;
+}
+.hiden{
+    display: none;
+}
+.hiden2>div{
+    padding-bottom: 2rem;
+}
+.filtr{
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(30, 30, 30);
+    padding-bottom: 1.8rem;
+}
+.knopka{
+    display: flex;
+}
+
+.knopka_i_galochka1, .knopka_i_galochka2,
+.knopka_i_galochka3, .knopka_i_galochka4,
+.knopka_i_galochka5, .knopka_i_galochka6,
+.knopka_i_galochka7, .knopka_i_galochka8,
+.knopka_i_galochka9, .knopka_i_galochka10,
+.knopka_i_galochka11 {
+    display: flex;
+    align-items: center;
+}
+.imgpustaya1, .imgpustaya2, .imgpustaya3,
+.imgpustaya4, .imgpustaya5, .imgpustaya6,
+.imgpustaya7, .imgpustaya8, .imgpustaya9,
+.imgpustaya10, .imgpustaya11 {
+    padding: 0;
+    margin-left: 0.3rem;
+    margin-bottom: 0.1rem;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(knopka/pustaya.jpg);
+    background-size:  contain;
+    background-repeat: no-repeat;
+}
+.knopka_i_galochka1:hover .imgpustaya1{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka2:hover .imgpustaya2{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka3:hover .imgpustaya3{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka4:hover .imgpustaya4{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka5:hover .imgpustaya5{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka6:hover .imgpustaya6{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka7:hover .imgpustaya7{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka8:hover .imgpustaya8{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka9:hover .imgpustaya9{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka10:hover .imgpustaya10{
+    background-image: url(knopka/temnaya.jpg);
+}
+.knopka_i_galochka11:hover .imgpustaya11{
+    background-image: url(knopka/temnaya.jpg);
+}
+
+.imgpustaya1:active {
+    transform: scale(0.95);
+}
+.imgpustaya2:active {
+    transform: scale(0.95);
+}
+.imgpustaya3:active {
+    transform: scale(0.95);
+}
+.imgpustaya4:active {
+    transform: scale(0.95);
+}
+.imgpustaya5:active {
+    transform: scale(0.95);
+}
+.imgpustaya6:active {
+    transform: scale(0.95);
+}
+.imgpustaya7:active {
+    transform: scale(0.95);
+}
+.imgpustaya8:active {
+    transform: scale(0.95);
+}
+.imgpustaya9:active {
+    transform: scale(0.95);
+}
+.imgpustaya10:active {
+    transform: scale(0.95);
+}
+.imgpustaya11:active {
+    transform: scale(0.95);
+}
+.imgpolnaya1, .imgpolnaya2, .imgpolnaya3,
+.imgpolnaya4, .imgpolnaya5, .imgpolnaya6,
+.imgpolnaya7, .imgpolnaya8, .imgpolnaya9,
+.imgpolnaya10, .imgpolnaya11{
+    padding: 0;
+    margin-left: 0.3rem;
+    margin-bottom: 0.1rem;
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-image: url(knopka/galochka.jpg);
+    background-repeat: no-repeat;
+    background-size:  contain;
+}
+
+.imgpolnaya1:active {
+    transform: scale(0.95);
+}
+.imgpolnaya2:active {
+    transform: scale(0.95);
+}
+.imgpolnaya3:active {
+    transform: scale(0.95);
+}
+.imgpolnaya4:active {
+    transform: scale(0.95);
+}
+.imgpolnaya5:active {
+    transform: scale(0.95);
+}
+.imgpolnaya6:active {
+    transform: scale(0.95);
+}
+.imgpolnaya7:active {
+    transform: scale(0.95);
+}
+.imgpolnaya8:active {
+    transform: scale(0.95);
+}
+.imgpolnaya9:active {
+    transform: scale(0.95);
+}
+.imgpolnaya10:active {
+    transform: scale(0.95);
+}
+.imgpolnaya11:active {
+    transform: scale(0.95);
+}
+
+.sexname, .tpname, .brname{
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: rgb(15, 15, 15);
+    padding-top: 0.8rem;
+    padding-bottom: 1.8rem;
+    font-weight: 500;
+}
+button{
+    padding: 0.4rem;
+    padding-left: 1rem;
+    margin: 0;
+    border-style: none;
+    font-family: 'Fira Sans Extra Condensed';
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: rgb(15, 15, 15);
+    background-color: rgb(255, 255, 255);
+}
+.slash{
+    font-size: 20px;
+    padding: 0.2rem;
+    padding-top: 0.3rem;
+    color:  #f9d303;
+    font-style: italic;
+    font-weight: 600;
+}
+.number{
+    font-family: Squada One;
+    padding: 0.2rem;
+    padding-top: 0.2rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(133, 133, 133);
+}

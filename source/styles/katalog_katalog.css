@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    
+    font-family: Fira Sans Extra Condensed, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.centerkatalog{
+    display: grid;
+    grid-template-columns:  repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.main{
+    grid-column: 4/12;
+    margin-top: 6rem;
+}
+.road_katalog{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 34px;
+}
+.road_katalog>a{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    padding: 1rem;
+    padding-left: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.road_katalog>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.road_katalog>div{
+    color: rgb(133, 133, 133);
+    padding: 1rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.road_katalog>.slash{
+    font-style: italic;
+    font-weight: 450;
+    padding-right: 27px;
+}
+.ves_katalog_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(11, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_skidki_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_man_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_woman_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_kedy_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_krossovky_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_kedyvisok_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 0.5rem;
+}
+.vse_adidas_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_asics_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_newbalance_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 0.5rem;
+}
+.vse_nike_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 0.5rem;
+}
+
+.vse_skidki, .vse_man, .vse_woman, .vse_kedy,
+.vse_krossovky, .vse_kedyvisok, .vse_adidas,
+.vse_asics, .vse_asics, .vse_newbalance,
+.vse_nike{
+    display: none;
+}
+
+.column1, .column2, .column3{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.column1>a, .column2>a, .column3>a{
+    background-color: rgb(246, 246, 246);;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.productname{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(15, 15, 15);
+    height: 50px;
+    background-color: rgb(246, 246, 246);
+    margin: 0;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.productname:hover{
+    text-decoration: underline;
+}
+.skidkaprice{
+    padding: 15px;
+    display: flex;
+    height: 50px;
+    background-color: rgb(246, 246, 246);
+}
+.skidkaprice>.price{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0;
+    color: rgb(133, 133, 133);
+    text-decoration: line-through;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+}
+.price{
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    height: 50px;
+    color: rgb(15, 15, 15);
+}
+.skidka{
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    color: #DC2400;
+    margin-right: 2rem;
+}
+
+@media(max-width: 1750px){
+    .centerkatalog{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media(max-width: 1650px){
+    .leftbar{
+        grid-column: 1/4;
+    }
+    .main{
+        grid-column: 4/13;
+    }
+    .centerkatalog{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media(max-width: 1250px){
+    .centerkatalog{
+        display: block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .zagalovok{
+        padding-left: 2rem;
+    }
+    .hiden2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .filtr{
+        padding-bottom: 3.7rem;
+    }
+    .main{
+        margin-top: 0rem;
+    }
+    .sexname, .tpname, .brname{
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+    .road_katalog{
+        padding-left: 20px;
+    }
+    .ves_katalog_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(17, 1fr);
+    }
+    .vse_skidki_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(9, 1fr);
+    }
+    .vse_man_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(11, 1fr);
+    }
+    .vse_woman_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .vse_kedy_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .vse_krossovky_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(12, 1fr);
+    }
+    .vse_kedyvisok_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .vse_adidas_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .vse_asics_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .vse_newbalance_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .vse_nike_1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .knopka, .filtr, .name{
+        padding-left: 3rem;
+    }
+}
+@media(max-width: 1000px){
+    .knopka, .filtr, .name{
+        padding-left: 1rem;
+    }
+    .sexname, .tpname, .brname{
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+}
+@media(max-width: 870px){
+    .hiden{
+        display: inline-block;
+        margin: 1rem;
+        margin-left: 1.5rem;
+    }
+    .hiden2{
+        display: none;
+    }
+    .filter{
+        display: inline-block;
+    }
+    .filter:hover .hiden2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        padding: 1rem;
+    }
+    .sexname{
+        padding: 1rem;
+        padding-top: 3.9rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    .tpname, .brname{
+        padding: 1rem;
+        padding-left: 1rem;
+    }
+}
+@media(max-width: 740px){
+    .productname{
+        font-size: 18px;
+    }
+    .skidkaprice>.price{
+        font-size: 18px;
+    }
+    .price{
+        font-size: 25px;
+    }
+    .skidka{
+        font-size: 25px;
+    }
+    .skidkaprice{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+@media(max-width: 570px){
+    .productname{
+        font-size: 16px;
+    }
+    .skidkaprice>.price{
+        font-size: 16px;
+    }
+    .price{
+        font-size: 22px;
+    }
+    .skidka{
+        font-size: 22px;
+    }
+    .skidkaprice{
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+    .price{
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+}
+@media(max-width: 570px){
+    .productname{
+        font-size: 15px;
+    }
+}
+@media(max-width: 500px){
+    .centerkatalog{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    .column1, .column2, .column3{
+        margin: 0.2rem;
+    }
+    .filter:hover .hiden2{
+        padding: 0.2rem;
+    }
+    .price{
+        height: 35px;
+    }
+    .skidkaprice{
+        height: 35px;
+    }
+    .skidka{
+        margin-right: 0.5rem;
+    }
+}
+@media(max-width: 430px){
+    .skidkaprice{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    .productname{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    .price{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+}
+@media(max-width: 400px){
+    .filter:hover .hiden2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        padding-top: 0;
+    }
+    .filtr{
+        padding-bottom: 0.5rem;
+    }
+    .hiden2>div{
+        padding-bottom: 0rem;
+    }
+    .sexname, .tpname, .brname{
+        padding-top: 0rem;
+    }
+}
+@media(max-width: 380px){
+    .skidkaprice>.price{
+        font-size: 14px;
+    }
+    .price{
+        font-size: 19px;
+    }
+    .skidka{
+        font-size: 19px;
+    }
+    .skidkaprice{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    .price{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    .skidka{
+        margin-right: 0.3rem;
+    }
+
+}
+@media(max-width: 380px){
+    .zagalovok{
+        padding-left: 1rem;
+    }
+    .price{
+        font-size: 18px;
+    }
+    .skidka{
+        font-size: 18px;
+    }
+}

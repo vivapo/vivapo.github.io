@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+  /* ВСЁ ЧТО НИЖЕ ТОПБАРА */
+
+.bgfon{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+.bgfon>div{
+    display: inline;
+    margin-left: 12.8rem;
+    font-size: 60px;
+    color: rgb(44, 44, 44);
+    font-style:inherit;
+}
+.b2{
+    width: 100%;
+    height: 2px;
+    background-color: #2c2c2c;
+}
+.b3{
+    height: 2rem;
+}
+.center{
+    display: block;
+    padding-bottom: 1rem;
+    padding-left: 12.8rem;
+    padding-right: 20rem;
+}
+.title{
+    font-size: 18px;
+    padding: 1.5rem;
+    padding-left: 0;
+    color:rgb(28, 28, 28);
+    font-weight: 600;
+}
+.information{
+    font-size: 17.5px;
+    line-height: 30px;
+    color: #2c2c2c;
+}
+.nadspiskom{
+    padding: 10px;
+    padding-left: 0;
+    padding-bottom: 5px;
+    color: #2c2c2c;
+    font-size: 17.5px;
+}
+.spisok{
+    color: #2c2c2c;
+    padding: 0;
+    padding-left: 1.2rem;
+}
+.spisok>li{
+    padding: 0.5rem;
+    font-size: 17.5px;
+}
+.b4{
+    width: 100%;
+    height: 1px;
+    background-color: #2c2c2c;
+}
+
+
+
+
+
+@media (max-width: 1110px) {
+    .bgfon>div{
+        margin-left: 2.8rem;
+    }
+    .center{
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+    }
+}
+@media (max-width: 550px){
+    .center{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}

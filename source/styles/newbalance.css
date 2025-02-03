@@ -1,0 +1,9 @@
+.vse_skidki, .ves_katalog, .vse_man, .vse_kedy,
+.vse_krossovky, .vse_kedyvisok, .vse_adidas,
+.vse_asics, .vse_woman,
+.vse_nike, .vse_asics{
+    display: none;
+}
+.vse_newbalance{
+    display: grid;
+}
