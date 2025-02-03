@@ -1,0 +1,2899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calceus</title>
+    <link rel="stylesheet" href="source/styles/katalog_filter.css">
+    <link rel="stylesheet" href="source/styles/katalog_katalog.css">
+    <link rel="stylesheet" href="source/styles/topbar.css">
+    <link rel="stylesheet" href="source/styles/bottombar.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="signature">
+            САЙТ CALCEUS НЕ ЯВЛЯЕТСЯ ОФИЦИАЛЬНЫМ.
+        </div>
+        <div class="topbtbar">
+            <a href="/"><img class="calceus" src="source/images/Calceus.jpg" alt="Calceus"></a>
+            <div class="drop">
+                <ul class="navbar">
+                    <li><a href="/">О КОМПАНИИ</a></li>
+                    <li class="modely">
+                        <div class="modely1">
+                            <a class="katalog" href="katalog.html">КАТАЛОГ</a>
+                        </div>
+                        <div>
+                            <ul class="navbar1">
+                            <li><a href="man.html">МУЖЧИНАМ</a></li>
+                            <li><a href="woman.html">ЖЕНЩИНАМ</a></li>
+                            <li><a href="adidas.html">ADIDAS</a></li>
+                            <li><a href="asics.html">ASICS</a></li>
+                            <li><a href="nike.html">NIKE</a></li>
+                            <li><a href="newbalance.html">NEWBALANCE</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="dostavka.html">ДОСТАВКА</a></li>
+                    <li><a href="garant.html">ГАРАНТИЯ</a></li>
+                </ul>
+                <div class="burger">
+                    <a href="#">&#9776</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="centerkatalog">
+        <div class="leftbar">
+            <div class="zagalovok">
+                <div class="zagalovbrand">БРЕНДЫ</div>
+                <div class="slashtop">/</div>
+                <div class="numbertop">4</div>
+            </div>
+            <div class="filter">
+                <div class="hiden">
+                    <img src="source/images/hiden.jpg" alt="...">
+                </div>
+                <div class="hiden2">
+                    <div class="filter1">
+                        <div class="filtr">ФИЛЬТР</div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka1">
+                                <button class="imgpustaya1" onclick="vse()"></button>
+                                <button class="imgpolnaya1" onclick="vse2()"></button>
+                                <button>Все модели</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">33</div>
+                        </div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka2">
+                                <button class="imgpustaya2" onclick="skidki()"></button>
+                                <button class="imgpolnaya2" onclick="skidki2()"></button>
+                                <button>Скидки</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">17</div>
+                        </div>
+                    </div>
+                    <div class="sex">
+                        <div class="sexname">ПОЛ</div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka3">
+                                <button class="imgpustaya3" onclick="man()"></button>
+                                <button class="imgpolnaya3" onclick="man2()"></button>
+                                <button>Мужчинам</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">21</div>
+                        </div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka4">
+                                <button class="imgpustaya4" onclick="woman()"></button>
+                                <button class="imgpolnaya4" onclick="woman2()"></button>
+                                <button>Женщинам</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">12</div>
+                        </div>
+                    </div>
+                    <div class="type-product">
+                        <div class="tpname">ВИД ТОВАРА</div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka5">
+                                <button class="imgpustaya5" onclick="kedy()"></button>
+                                <button class="imgpolnaya5" onclick="kedy2()"></button>
+                                <button>Кеды</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">9</div>
+                        </div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka6">
+                                <button class="imgpustaya6" onclick="krossovky()"></button>
+                                <button class="imgpolnaya6" onclick="krossovky2()"></button>
+                                <button>Кроссовки</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">23</div>
+                        </div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka7">
+                                <button class="imgpustaya7" onclick="kedyvisok()"></button>
+                                <button class="imgpolnaya7" onclick="kedyvisok2()"></button>
+                                <button>Кеды высокие</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">1</div>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="brname">БРЕНД</div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka8">
+                                <button class="imgpustaya8" onclick="adidas()"></button>
+                                <button class="imgpolnaya8" onclick="adidas2()"></button>
+                                <button>Adidas</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">9</div>
+                        </div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka9">
+                                <button class="imgpustaya9" onclick="asics()"></button>
+                                <button class="imgpolnaya9" onclick="asics2()"></button>
+                                <button>Asics</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">6</div>
+                        </div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka10">
+                                <button class="imgpustaya10" onclick="newbalance()"></button>
+                                <button class="imgpolnaya10" onclick="newbalance2()"></button>
+                                <button>New Balance</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">9</div>
+                        </div>
+                        <div class="knopka">
+                            <div class="knopka_i_galochka11">
+                                <button class="imgpustaya11" onclick="nike()"></button>
+                                <button class="imgpolnaya11" onclick="nike2()"></button>
+                                <button>Nike</button>
+                            </div>
+                            <div class="slash">/</div>
+                            <div class="number">9</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="ves_katalog">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                </div>
+                <div class="ves_katalog_1">
+                    <div class="column1">
+                        <a href="woman New Balance 9060 1.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 9060 1/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Женские кроссовки New Balance 9060</div>
+                        </a>
+                        <div class="price">24 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man New Balance 530.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 530/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 530</div>
+                        </a>
+                        <div class="price">16 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman New Balance 9060.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 9060/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Женские кроссовки New Balance 9060</div>
+                        </a>
+                        <div class="price">24 999 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man Nike Dunk.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Dunk/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Dunk</div>
+                        </a>
+                        <div class="price">22 899 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman adidas Campus 00S.html">
+                            <img src="source/images/adidas/woman/Женские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">10 059 ₽</div>
+                            <div class="price">11 059 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozmillen.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="woman Nike P-6000.html">
+                            <img src="source/images/nike/woman/Женские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="price">19 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike Air Force 1 '07 Lv8.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Air Force 1 '07 Lv8/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Air Force 1 '07 Lv8</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Gel-Nyc.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Nyc/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Nyc</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">14 099 ₽</div>
+                            <div class="price">28 199 ₽</div>
+                        </div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man adidas Adifom Climacool.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Adifom Climacool/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки adidas Adifom Climacool</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 899 ₽</div>
+                            <div class="price">16 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Ozweego.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Ozweego/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Ozweego</div>
+                        </a>
+                        <div class="price">18 399 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man New Balance 530 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 530 1/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 530</div>
+                        </a>
+                        <div class="price">16 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14 1.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Campus 00S.html">
+                            <img src="source/images/adidas/man/Мужские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man Nike Court Vision Mid Next Nature.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Court Vision Mid Next Nature/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кеды Nike Court Vision Mid Next Nature</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 479 ₽</div>
+                            <div class="price">16 399 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man adidas Treziod 2.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Treziod 2/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Treziod 2</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 779 ₽</div>
+                            <div class="price">11 299 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 1906.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 1906/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 1906</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="woman Nike Air Force 1 Shadow.html">
+                            <img src="source/images/nike/woman/Женские кеды Nike Nike Air Force 1 Shadow/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Женские кеды Nike Air Force 1 Shadow</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike Air Dunk Jumbo.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Air Dunk Jumbo/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Air Dunk Jumbo</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Ex89.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man Asics Ex89 1.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike P-6000.html">
+                            <img src="source/images/nike/man/Мужские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 999 ₽</div>
+                            <div class="price">19 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman Nike Dunk.html">
+                            <img src="source/images/nike/woman/Женские кеды Nike Dunk/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды Nike Dunk</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man adidas Ozmillen.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="price">15 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Asics Asics Gel-Mai.html">
+                            <img src="source/images/asics/woman/Женские кроссовки ASICS Asics Gel-Mai/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки ASICS Asics Gel-Mai</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 699 ₽</div>
+                            <div class="price">13 399 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Astir.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Astir/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Astir</div>
+                        </a>
+                        <div class="price">13 899 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="woman New Balance 574.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 574/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Женские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 899 ₽</div>
+                            <div class="price">19 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man New Balance 574.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozgaia.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozgaia/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozgaia</div>
+                        </a>
+                        <div class="price">12 599 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man New Balance 574 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 1/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Nike V2 K Run.html">
+                            <img src="source/images/nike/woman/Женские кроссовки Nike V2 K Run/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки Nike V2 K Run</div>
+                        </a>
+                        <div class="price">22 499 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 574 2.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 2/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="vse_skidki">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Скидки
+                    </div>
+                </div>
+                <div class="vse_skidki_1">
+
+                    <div class="column2">
+                        <a href="woman adidas Campus 00S.html">
+                            <img src="source/images/adidas/woman/Женские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">10 059 ₽</div>
+                            <div class="price">11 059 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozmillen.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Gel-Nyc.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Nyc/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Nyc</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">14 099 ₽</div>
+                            <div class="price">28 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man adidas Adifom Climacool.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Adifom Climacool/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки adidas Adifom Climacool</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 899 ₽</div>
+                            <div class="price">16 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14 1.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Campus 00S.html">
+                            <img src="source/images/adidas/man/Мужские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man Nike Court Vision Mid Next Nature.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Court Vision Mid Next Nature/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кеды Nike Court Vision Mid Next Nature</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 479 ₽</div>
+                            <div class="price">16 399 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man adidas Treziod 2.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Treziod 2/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Treziod 2</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 779 ₽</div>
+                            <div class="price">11 299 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Ex89.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man Asics Ex89 1.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike P-6000.html">
+                            <img src="source/images/nike/man/Мужские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 999 ₽</div>
+                            <div class="price">19 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Asics Asics Gel-Mai.html">
+                            <img src="source/images/asics/woman/Женские кроссовки ASICS Asics Gel-Mai/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки ASICS Asics Gel-Mai</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 699 ₽</div>
+                            <div class="price">13 399 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman New Balance 574.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 574/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Женские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 899 ₽</div>
+                            <div class="price">19 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man New Balance 574.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man New Balance 574 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 1/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 574 2.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 2/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="vse_man">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Мужчинам
+                    </div>
+                </div>
+                <div class="vse_man_1">
+
+                    <div class="column2">
+                        <a href="man New Balance 530.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 530/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 530</div>
+                        </a>
+                        <div class="price">16 999 ₽</div>
+                    </div>
+                    <div class="column1">
+                        <a href="man Nike Dunk.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Dunk/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Dunk</div>
+                        </a>
+                        <div class="price">22 899 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike Air Force 1 '07 Lv8.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Air Force 1 '07 Lv8/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Air Force 1 '07 Lv8</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Gel-Nyc.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Nyc/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Nyc</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">14 099 ₽</div>
+                            <div class="price">28 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man adidas Adifom Climacool.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Adifom Climacool/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки adidas Adifom Climacool</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 899 ₽</div>
+                            <div class="price">16 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Ozweego.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Ozweego/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Ozweego</div>
+                        </a>
+                        <div class="price">18 399 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man New Balance 530 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 530 1/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 530</div>
+                        </a>
+                        <div class="price">16 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14 1.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Campus 00S.html">
+                            <img src="source/images/adidas/man/Мужские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man Nike Court Vision Mid Next Nature.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Court Vision Mid Next Nature/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кеды Nike Court Vision Mid Next Nature</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 479 ₽</div>
+                            <div class="price">16 399 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man adidas Treziod 2.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Treziod 2/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Treziod 2</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 779 ₽</div>
+                            <div class="price">11 299 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 1906.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 1906/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 1906</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike Air Dunk Jumbo.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Air Dunk Jumbo/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Air Dunk Jumbo</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Ex89.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man Asics Ex89 1.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike P-6000.html">
+                            <img src="source/images/nike/man/Мужские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 999 ₽</div>
+                            <div class="price">19 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man adidas Ozmillen.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="price">15 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man New Balance 574.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man New Balance 574 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 1/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 574 2.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 2/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vse_woman">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Женщинам
+                    </div>
+                </div>
+                <div class="vse_woman_1">
+                    <div class="column1">
+                        <a href="woman New Balance 9060 1.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 9060 1/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 9060</div>
+                        </a>
+                        <div class="price">24 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman New Balance 9060.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 9060/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 9060</div>
+                        </a>
+                        <div class="price">24 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman adidas Campus 00S.html">
+                            <img src="source/images/adidas/woman/Женские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">10 059 ₽</div>
+                            <div class="price">11 059 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozmillen.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman Nike P-6000.html">
+                            <img src="source/images/nike/woman/Женские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="price">19 999 ₽</div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman Nike Air Force 1 Shadow.html">
+                            <img src="source/images/nike/woman/Женские кеды Nike Nike Air Force 1 Shadow/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды Nike Air Force 1 Shadow</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman Nike Dunk.html">
+                            <img src="source/images/nike/woman/Женские кеды Nike Dunk/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды Nike Dunk</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Asics Asics Gel-Mai.html">
+                            <img src="source/images/asics/woman/Женские кроссовки ASICS Asics Gel-Mai/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки ASICS Asics Gel-Mai</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 699 ₽</div>
+                            <div class="price">13 399 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Astir.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Astir/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Astir</div>
+                        </a>
+                        <div class="price">13 899 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="woman New Balance 574.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 574/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 899 ₽</div>
+                            <div class="price">19 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozgaia.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozgaia/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozgaia</div>
+                        </a>
+                        <div class="price">12 599 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Nike V2 K Run.html">
+                            <img src="source/images/nike/woman/Женские кроссовки Nike V2 K Run/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки Nike V2 K Run</div>
+                        </a>
+                        <div class="price">22 499 ₽</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vse_kedy">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Кеды
+                    </div>
+                </div>
+                <div class="vse_kedy_1">
+                    <div class="column1">
+                        <a href="man Nike Dunk.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Dunk/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Dunk</div>
+                        </a>
+                        <div class="price">22 899 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman adidas Campus 00S.html">
+                            <img src="source/images/adidas/woman/Женские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">10 059 ₽</div>
+                            <div class="price">11 059 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike Air Force 1 '07 Lv8.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Air Force 1 '07 Lv8/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Air Force 1 '07 Lv8</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Campus 00S.html">
+                            <img src="source/images/adidas/man/Мужские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman Nike Air Force 1 Shadow.html">
+                            <img src="source/images/nike/woman/Женские кеды Nike Nike Air Force 1 Shadow/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды Nike Air Force 1 Shadow</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike Air Dunk Jumbo.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Air Dunk Jumbo/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Air Dunk Jumbo</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Ex89.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man Asics Ex89 1.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman Nike Dunk.html">
+                            <img src="source/images/nike/woman/Женские кеды Nike Dunk/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды Nike Dunk</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vse_krossovky">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Кроссовки
+                    </div>
+                </div>
+                <div class="vse_krossovky_1">
+                    <div class="column1">
+                        <a href="woman New Balance 9060 1.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 9060 1/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 9060</div>
+                        </a>
+                        <div class="price">24 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man New Balance 530.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 530/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 530</div>
+                        </a>
+                        <div class="price">16 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman New Balance 9060.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 9060/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 9060</div>
+                        </a>
+                        <div class="price">24 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozmillen.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman Nike P-6000.html">
+                            <img src="source/images/nike/woman/Женские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="price">19 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Gel-Nyc.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Nyc/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Nyc</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">14 099 ₽</div>
+                            <div class="price">28 199 ₽</div>
+                        </div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man adidas Adifom Climacool.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Adifom Climacool/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Adifom Climacool</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 899 ₽</div>
+                            <div class="price">16 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Ozweego.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Ozweego/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Ozweego</div>
+                        </a>
+                        <div class="price">18 399 ₽</div>
+                    </div>
+    
+                    <div class="column1">
+                        <a href="man New Balance 530 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 530 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 530</div>
+                        </a>
+                        <div class="price">16 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14 1.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man adidas Treziod 2.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Treziod 2/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Treziod 2</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 779 ₽</div>
+                            <div class="price">11 299 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 1906.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 1906/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 1906</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike P-6000.html">
+                            <img src="source/images/nike/man/Мужские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 999 ₽</div>
+                            <div class="price">19 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man adidas Ozmillen.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="price">15 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Asics Asics Gel-Mai.html">
+                            <img src="source/images/asics/woman/Женские кроссовки ASICS Asics Gel-Mai/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки ASICS Asics Gel-Mai</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 699 ₽</div>
+                            <div class="price">13 399 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Astir.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Astir/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Astir</div>
+                        </a>
+                        <div class="price">13 899 ₽</div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman New Balance 574.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 574/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 899 ₽</div>
+                            <div class="price">19 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man New Balance 574.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozgaia.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozgaia/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozgaia</div>
+                        </a>
+                        <div class="price">12 599 ₽</div>
+                    </div>
+                    <div class="column1">
+                        <a href="man New Balance 574 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Nike V2 K Run.html">
+                            <img src="source/images/nike/woman/Женские кроссовки Nike V2 K Run/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки Nike V2 K Run</div>
+                        </a>
+                        <div class="price">22 499 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 574 2.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 2/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vse_kedyvisok">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Кеды высокие
+                    </div>
+                </div>
+                <div class="vse_kedyvisok_1">
+                    <div class="column1">
+                        <a href="man Nike Court Vision Mid Next Nature.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Court Vision Mid Next Nature/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кеды Nike Court Vision Mid Next Nature</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 479 ₽</div>
+                            <div class="price">16 399 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vse_adidas">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Adidas
+                    </div>
+                </div>
+                <div class="vse_adidas_1">
+                    <div class="column2">
+                        <a href="woman adidas Campus 00S.html">
+                            <img src="source/images/adidas/woman/Женские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">10 059 ₽</div>
+                            <div class="price">11 059 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozmillen.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man adidas Adifom Climacool.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Adifom Climacool/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Adifom Climacool</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 899 ₽</div>
+                            <div class="price">16 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Ozweego.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Ozweego/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Ozweego</div>
+                        </a>
+                        <div class="price">18 399 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man adidas Campus 00S.html">
+                            <img src="source/images/adidas/man/Мужские кеды adidas Campus 00S/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды adidas Campus 00S</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 479 ₽</div>
+                            <div class="price">15 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man adidas Treziod 2.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Treziod 2/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Treziod 2</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 779 ₽</div>
+                            <div class="price">11 299 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man adidas Ozmillen.html">
+                            <img src="source/images/adidas/man/Мужские кроссовки adidas Ozmillen/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки adidas Ozmillen</div>
+                        </a>
+                        <div class="price">15 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Astir.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Astir/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Astir</div>
+                        </a>
+                        <div class="price">13 899 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman adidas Ozgaia.html">
+                            <img src="source/images/adidas/woman/Женские кроссовки adidas Ozgaia/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки adidas Ozgaia</div>
+                        </a>
+                        <div class="price">12 599 ₽</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vse_asics">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Asics
+                    </div>
+                </div>
+                <div class="vse_asics_1">
+                    <div class="column3">
+                        <a href="man Asics Gel-Nyc.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Nyc/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Nyc</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">14 099 ₽</div>
+                            <div class="price">28 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Asics Gel-Kayano 14 1.html">
+                            <img src="source/images/asics/man/Мужские кроссовки ASICS Gel-Kayano 14 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки ASICS Gel-Kayano 14</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">17 999 ₽</div>
+                            <div class="price">29 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man Asics Ex89.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man Asics Ex89 1.html">
+                            <img src="source/images/asics/man/Мужские кеды ASICS Ex89 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды ASICS Ex89</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 099 ₽</div>
+                            <div class="price">22 199 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Asics Asics Gel-Mai.html">
+                            <img src="source/images/asics/woman/Женские кроссовки ASICS Asics Gel-Mai/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки ASICS Asics Gel-Mai</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">6 699 ₽</div>
+                            <div class="price">13 399 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vse_newbalance">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        New Balance
+                    </div>
+                </div>
+                <div class="vse_newbalance_1">
+                    <div class="column1">
+                        <a href="woman New Balance 9060 1.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 9060 1/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 9060</div>
+                        </a>
+                        <div class="price">24 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man New Balance 530.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 530/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 530</div>
+                        </a>
+                        <div class="price">16 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman New Balance 9060.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 9060/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 9060</div>
+                        </a>
+                        <div class="price">24 999 ₽</div>
+                    </div>
+                    <div class="column1">
+                        <a href="man New Balance 530 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 530 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 530</div>
+                        </a>
+                        <div class="price">16 999 ₽</div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 1906.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 1906/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 1906</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman New Balance 574.html">
+                            <img src="source/images/newbalance/woman/Женские кроссовки New Balance 574/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">9 899 ₽</div>
+                            <div class="price">19 799 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <a href="man New Balance 574.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="man New Balance 574 1.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 1/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="man New Balance 574 2.html">
+                            <img src="source/images/newbalance/man/Мужские кроссовки New Balance 574 2/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки New Balance 574</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 249 ₽</div>
+                            <div class="price">26 499 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vse_nike">
+                <div class="road_katalog">
+                    <a href="katalog.html">
+                        <div>Бренды</div>
+                    </a>
+                    <div class="slash">
+                        /
+                    </div>
+                    <div>
+                        Nike
+                    </div>
+                </div>
+                <div class="vse_nike_1">
+                    <div class="column1">
+                        <a href="man Nike Dunk.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Dunk/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Dunk</div>
+                        </a>
+                        <div class="price">22 899 ₽</div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman Nike P-6000.html">
+                            <img src="source/images/nike/woman/Женские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="price">19 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike Air Force 1 '07 Lv8.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Air Force 1 '07 Lv8/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Air Force 1 '07 Lv8</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column1">
+                        <a href="man Nike Court Vision Mid Next Nature.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Court Vision Mid Next Nature/osnova.jpg"
+                                alt="...">
+                            <div class="productname">Мужские кеды Nike Court Vision Mid Next Nature</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">11 479 ₽</div>
+                            <div class="price">16 399 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column1">
+                        <a href="woman Nike Air Force 1 Shadow.html">
+                            <img src="source/images/nike/woman/Женские кеды Nike Nike Air Force 1 Shadow/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды Nike Air Force 1 Shadow</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike Air Dunk Jumbo.html">
+                            <img src="source/images/nike/man/Мужские кеды Nike Air Dunk Jumbo/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кеды Nike Air Dunk Jumbo</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="man Nike P-6000.html">
+                            <img src="source/images/nike/man/Мужские кроссовки Nike P-6000/osnova.jpg" alt="...">
+                            <div class="productname">Мужские кроссовки Nike P-6000</div>
+                        </a>
+                        <div class="skidkaprice">
+                            <div class="skidka">13 999 ₽</div>
+                            <div class="price">19 999 ₽</div>
+                        </div>
+                    </div>
+                    <div class="column3">
+                        <a href="woman Nike Dunk.html">
+                            <img src="source/images/nike/woman/Женские кеды Nike Dunk/osnova.jpg" alt="...">
+                            <div class="productname">Женские кеды Nike Dunk</div>
+                        </a>
+                        <div class="price">22 999 ₽</div>
+                    </div>
+                    <div class="column2">
+                        <a href="woman Nike V2 K Run.html">
+                            <img src="source/images/nike/woman/Женские кроссовки Nike V2 K Run/osnova.jpg" alt="...">
+                            <div class="productname">Женские кроссовки Nike V2 K Run</div>
+                        </a>
+                        <div class="price">22 499 ₽</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottombar">
+        <div class="btbar1">
+            <img class="logo" src="source/images/Calceus.jpg" alt="Логотип...">
+            <ul class="navbarbottom">
+                <li><a href="/">О КОМПАНИИ</a></li>
+                <li><a href="katalog.html">КАТАЛОГ</a></li>
+                <li><a href="dostavka.html">ДОСТАВКА</a></li>
+                <li><a href="garant.html">ГАРАНТИЯ</a></li>
+            </ul>
+        </div>
+        <div class="btbar2">
+            <div class="telephone">
+                <div class="number">
+                    8 (936) 369-69-69
+                </div>
+                <div class="d24">
+                    24/7
+                </div>
+            </div>
+
+            <div class="email">
+                E-mail: calceus@mail.com
+            </div>
+            <div>
+                Время работы: 9:00-18:00
+            </div>
+            <div>
+                г.Ульяновск, ул. Октябрьская, 22Н
+            </div>
+        </div>
+        <div class="btbar3">
+            <div class="cards">
+                <div class="mastercard">
+                    <img src="source/images/MasterCard_logo.png" alt="...">
+                </div>
+                <div class="visa">
+                    <img src="source/images/free-icon-visa-196578.png" alt="...">
+                </div>
+                <div class="mir">
+                    <img src="source/images/Mir-logo.SVG.svg.png" alt="...">
+                </div>
+            </div>
+            <div class="logovktg">
+                <div>
+                    <img class="tg1"
+                        src="https://cdn.urbanvibes.com/upload/content/cmsgate/ru_urbanvibes/prod/icons/icon_telegram.svg"
+                        alt="">
+                </div>
+                <div>
+                    <img class="vk1"
+                        src="https://cdn.urbanvibes.com/upload/content/cmsgate/ru_urbanvibes/prod/icons/icon_vk.svg"
+                        alt="">
+                </div>
+            </div>
+            <div class="calceus">
+                <div>
+                    ©Calceus
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btsignature">
+        Обращаем ваше внимание на то, что вся представленная на сайте информация носит исключительно информационный
+        характер и ни при каких условиях не является публичной офертой определяемой положениями Статьи 437(2)
+        Гражданского кодекса Российской Федерации.
+    </div>
+
+
+    <div>
+        <!-- !! 1 !! -->
+        <script>
+            function vse() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'none';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'block';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+
+            }
+            function vse2() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 2 !! -->
+        <script>
+            function skidki() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'none';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'block';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'grid';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function skidki2() {
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 3 !! -->
+        <script>
+            function man() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'none';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'block';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'grid';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function man2() {
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 4 !! -->
+        <script>
+            function woman() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'none';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'block';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'grid';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function woman2() {
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 5 !! -->
+        <script>
+            function kedy() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'none';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'block';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'grid';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function kedy2() {
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 6 !! -->
+        <script>
+            function krossovky() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'none';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'block';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'grid';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function krossovky2() {
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 7 !! -->
+        <script>
+            function kedyvisok() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'none';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'block';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'grid';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function kedyvisok2() {
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 8 !! -->
+        <script>
+            function adidas() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'none';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'block';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'grid';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function adidas2() {
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 9 !! -->
+        <script>
+            function asics() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'none';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'block';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'grid';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function asics2() {
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 10 !! -->
+        <script>
+            function newbalance() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'none';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'block';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'grid';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+            function newbalance2() {
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+
+        <!-- !! 11 !! -->
+        <script>
+            function nike() {
+                var imgpustaya1 = document.querySelector('.imgpustaya1');
+                imgpustaya1.style.display = 'block';
+                var imgpustaya2 = document.querySelector('.imgpustaya2');
+                imgpustaya2.style.display = 'block';
+                var imgpustaya3 = document.querySelector('.imgpustaya3');
+                imgpustaya3.style.display = 'block';
+                var imgpustaya4 = document.querySelector('.imgpustaya4');
+                imgpustaya4.style.display = 'block';
+                var imgpustaya5 = document.querySelector('.imgpustaya5');
+                imgpustaya5.style.display = 'block';
+                var imgpustaya6 = document.querySelector('.imgpustaya6');
+                imgpustaya6.style.display = 'block';
+                var imgpustaya7 = document.querySelector('.imgpustaya7');
+                imgpustaya7.style.display = 'block';
+                var imgpustaya8 = document.querySelector('.imgpustaya8');
+                imgpustaya8.style.display = 'block';
+                var imgpustaya9 = document.querySelector('.imgpustaya9');
+                imgpustaya9.style.display = 'block';
+                var imgpustaya10 = document.querySelector('.imgpustaya10');
+                imgpustaya10.style.display = 'block';
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'none';
+
+                var imgpolnaya1 = document.querySelector('.imgpolnaya1');
+                imgpolnaya1.style.display = 'none';
+                var imgpolnaya2 = document.querySelector('.imgpolnaya2');
+                imgpolnaya2.style.display = 'none';
+                var imgpolnaya3 = document.querySelector('.imgpolnaya3');
+                imgpolnaya3.style.display = 'none';
+                var imgpolnaya4 = document.querySelector('.imgpolnaya4');
+                imgpolnaya4.style.display = 'none';
+                var imgpolnaya5 = document.querySelector('.imgpolnaya5');
+                imgpolnaya5.style.display = 'none';
+                var imgpolnaya6 = document.querySelector('.imgpolnaya6');
+                imgpolnaya6.style.display = 'none';
+                var imgpolnaya7 = document.querySelector('.imgpolnaya7');
+                imgpolnaya7.style.display = 'none';
+                var imgpolnaya8 = document.querySelector('.imgpolnaya8');
+                imgpolnaya8.style.display = 'none';
+                var imgpolnaya9 = document.querySelector('.imgpolnaya9');
+                imgpolnaya9.style.display = 'none';
+                var imgpolnaya10 = document.querySelector('.imgpolnaya10');
+                imgpolnaya10.style.display = 'none';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'block';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'none';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'grid';
+            }
+            function nike2() {
+                var imgpustaya11 = document.querySelector('.imgpustaya11');
+                imgpustaya11.style.display = 'block';
+                var imgpolnaya11 = document.querySelector('.imgpolnaya11');
+                imgpolnaya11.style.display = 'none';
+
+                var ves_katalog = document.querySelector('.ves_katalog');
+                ves_katalog.style.display = 'grid';
+                var vse_skidki = document.querySelector('.vse_skidki');
+                vse_skidki.style.display = 'none';
+                var vse_man = document.querySelector('.vse_man');
+                vse_man.style.display = 'none';
+                var vse_woman = document.querySelector('.vse_woman');
+                vse_woman.style.display = 'none';
+                var vse_kedy = document.querySelector('.vse_kedy');
+                vse_kedy.style.display = 'none';
+                var vse_krossovky = document.querySelector('.vse_krossovky');
+                vse_krossovky.style.display = 'none';
+                var vse_kedyvisok = document.querySelector('.vse_kedyvisok');
+                vse_kedyvisok.style.display = 'none';
+                var vse_adidas = document.querySelector('.vse_adidas');
+                vse_adidas.style.display = 'none';
+                var vse_asics = document.querySelector('.vse_asics');
+                vse_asics.style.display = 'none';
+                var vse_newbalance = document.querySelector('.vse_newbalance');
+                vse_newbalance.style.display = 'none';
+                var vse_nike = document.querySelector('.vse_nike');
+                vse_nike.style.display = 'none';
+            }
+        </script>
+    </div>
+
+
+
+</body>
+
+</html>
