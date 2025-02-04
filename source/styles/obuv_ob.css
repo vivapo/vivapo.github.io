@@ -588,7 +588,7 @@ a{
 }
 @media(max-width: 600px){
     .main{
-        padding: 0.5rem;
+        padding: 0.7rem;
     }
     .road>a, .road>div{
         padding: 0.5rem;
