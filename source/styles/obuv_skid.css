@@ -66,6 +66,8 @@ img{
     margin-left: 1.6rem;
 }
 .logobrands>a{
+    display: flex;
+    align-items: center;
     height: 50px;
 }
 .logobrands_logo{
@@ -584,6 +586,9 @@ a{
     }
     .info>div{
         margin-left:0 ;
+    }
+    .info>.logobrands{
+        margin-left: 0.5rem;
     }
     .size, .name, .color, .price, .skidka{
         padding-left: 0.5rem;
