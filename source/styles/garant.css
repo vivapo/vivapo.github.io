@@ -65,8 +65,12 @@
     }
 }
 @media (max-width: 715px) {
+    .bgfon{
+        margin-top:1rem;
+    }
     .bgfon>div{
         font-size: 40px;
+        margin-left: 1.5rem;
     }
 }
 @media (max-width: 550px){
@@ -77,9 +81,6 @@
     
     .bgfon>div{
         font-size:40px;
-    }
-    .bgfon{
-        padding: 0.5rem;
     }
 
 }
