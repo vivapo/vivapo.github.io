@@ -77,4 +77,9 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    
+    .bgfon>div{
+        font-size:40px;
+    }
+
 }
