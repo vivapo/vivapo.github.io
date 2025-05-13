@@ -4,7 +4,9 @@
 
 /* ВСЁ ЧТО НИЖЕ ВЕРХНЕЙ ПАНЕЛИ */
 
-
+.fotobgvideo{
+    display: none;
+}
 .bgvideo{
     height: 90vh;
     width: 100%;
